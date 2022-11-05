@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hjem</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container1">
+        <nav class="navbar1"> 
+
+            <img src="/images/logo2.jpeg" alt="" class="logo2">
+                <a href="#" class="toggle-button">            
+                    <span class="bar"></span>             
+                    <span class="bar"></span>            
+                    <span class="bar"></span>           
+                    <span class="bar"></span>          
+                </a>           
+            <div class="navbar-links">           
+                <ul>          
+                    <li><a href="index.html">Home</a></li>          
+                    <li><a href="#">Meny</a></li>          
+                    <li><a href="#">Reserverasjon</a></li>         
+                    <li><a href="#">Om oss</a></li>        
+                </ul>          
+            </div>           
+        </nav> 
+    </div>
+<div class="container">
+    <img src="images/wall.jpeg" alt="karols kafe" class="forsidebilde">
+
+
+
+</div>
+</div>
+<h2 class="velkommen">Velkommen til Karol's Café</h2>
+</div>
+<div class="services">
+    
+
+    <div class="box">
+        <div class="card">
+            <img src="/images/menybilde.png" alt="" class="menybilde">
+            <h5>Meny</h5>
+            <div class="pra">
+                <p>Vår meny består av varierte retter fra alle verdensdeler
+                </p>
+
+                <p style="text-align:center;">
+                    <a class="button" href="#">Se Meny</a>
+                </p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="/images/kontaktbilde.png" alt="" class="reservasjonbilde">
+            <h5>Reservasjon</h5>
+            <div class="pra">
+                <p>Bestill bord, eller lag reservasjon for arrangement
+                </p>
+
+                <p style="text-align:center;">
+                    <a class="button" href="#">Reserver</a>
+                </p>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/images/forsidebilde1.png" alt="" class="omossbilde">
+            <h5>Om oss</h5>
+            <div class="pra">
+                <p>Vi ligger i Karols gate rett ved slottet. Vi har flere stilige fasiliteter
+                </p>
+
+                <p style="text-align:center;">
+                    <a class="button" href="#">Se mer</a>
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<h2 style="text-align:center">Kontakt informasjon</h2>
+<br>
+<p style="text-align: center;">Ring oss på 900 45 234</p>
+<p style = "text-align: center;">Send mail til eksempel@cafe.com</p>
+
+<script> 
+
+    const toggleButton = document.getElementsByClassName('toggle-button')[0] 
+    
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0] 
+
+    toggleButton.addEventListener('click', () => { 
+    
+    navbarLinks.classList.toggle('active') 
+    
+    }) 
+    
+    </script> 
+
+</body>
+</html>
